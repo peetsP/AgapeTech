@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
-/*------------------ Header ------------------*/
+/*---------------- Header ----------------*/
 
 #header {
   background: #fff;
@@ -854,7 +854,6 @@ section.contact {
   line-height: 1.67;
   margin-bottom: 62px; }
 
-/*
 .service {
   padding: 16px 12px;
   background-color: #f9f9f9;
@@ -881,51 +880,12 @@ section.contact {
     color: #ffffff; }
     .service:hover::before {
       opacity: 1; }
-  */
-
-  /*
   .service.service-1::before {
  background-image: linear-gradient(135deg, #28313b 50%, #485461 4%); }
   .service.service-2::before {
  background-image: linear-gradient(135deg, #28313b 50%, #485461 4%); }
   .service.service-3::before {
  background-image: linear-gradient(135deg, #28313b 50%, #485461 4%); }
-
-
- */
-
-
-  .service {
-    background: #485461;
-    padding: 16px 12px;
-    color: white;
-    height: 100%;
-    position: relative;
-    border-radius: 5px!important;
-    box-sizing: border-box;
-    margin: 8px;
-    cursor: pointer;
-    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;    
-    transition: all 0.3s ease-in; } 
-
-
-  .service:hover {
-    background: #28313b;
-    transition: all 0.3 ease-in; }
-
-    /*
-    .service:hover::before {
-      opacity: 1; }
- 
-  .service.service-1::before {
-    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px; }
-  .service.service-2::before {
-    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px; }
-  .service.service-3::before {
-    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px; }
-
-*/
-
   .service .card-body {
     position: relative;
     z-index: 3; }
