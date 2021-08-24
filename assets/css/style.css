@@ -337,14 +337,25 @@ h1, h2, h3, h4, h5, h6 {
 .bigheader {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 35px;
+  font-size: 31px;
   margin-top: 110px;
+  font-weight: bold;
 }
 
-.smallhead {
-  font-size: 14px;
+p.smallheader {
+  font-size: 13.2px;
   margin-bottom: 30px;
+}
 
+p.smallheader a {
+  font-size: 14px;
+  color: #3FA39F;
+}
+
+p.smallheader a:hover {
+  font-size: 14px;
+  color: #3FA39F;
+  text-decoration: underline;
 }
 
 #hero h2 {
@@ -678,22 +689,30 @@ section.contact {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input, .contact .php-email-form textarea, select {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
   border-radius: 4px;
 }
 
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+.contact .php-email-form input:focus, .contact .php-email-form textarea:focus, select:focus {
   border-color: #3FA39F;
 }
 
-.contact .php-email-form input {
+.contact .php-email-form input, select {
   height: 44px;
 }
 
-.contact .php-email-form textarea {
+select {
+  width: 100%;
+}
+
+select:active {
+  border-color: #3FA39F;
+}
+
+.contact .php-email-form textarea, select {
   padding: 10px 12px;
 }
 
@@ -849,6 +868,11 @@ section.contact {
   overflow: hidden;
 }
 
+.landing-section .row {
+  display: flex;
+  justify-content: center;
+}
+
 .news-section-subtitle {
   font-size: 15px;
   line-height: 1.67;
@@ -896,15 +920,6 @@ section.contact {
       height: 26px;
       border-radius: 50%;
       margin-right: 7px; }
-    .service .author-info .author-name {
-      font-size: 12px;
-      line-height: 1;
-      font-weight: 400;
-      margin-bottom: 5px; }
-    .service .author-info .news-post-date {
-      font-size: 10px;
-      line-height: 1.2;
-      margin-bottom: 0; }
   .service .post-meta {
     margin-bottom: 6px;
     text-align: center; }
