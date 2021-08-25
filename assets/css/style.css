@@ -337,19 +337,20 @@ h1, h2, h3, h4, h5, h6 {
 .bigheader {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 31px;
+  font-size: 45px;
   margin-top: 110px;
   font-weight: bold;
 }
 
 p.smallheader {
-  font-size: 13.2px;
+  font-size: 13.4px;
   margin-bottom: 30px;
 }
 
 p.smallheader a {
   font-size: 14px;
   color: #3FA39F;
+  font-weight: bold;
 }
 
 p.smallheader a:hover {
@@ -883,12 +884,29 @@ select:active {
   line-height: 1.67;
   margin-bottom: 62px; }
 
+.landing-section-home {
+  background: url("../img/services/wifi32.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.landing-section-bs {
+
+  background: url("../img/background/business.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 .service {
-  padding: 16px 12px;
+  padding: 1px 12px;
   background-color: #f9f9f9;
   height: 100%;
   position: relative;
-  border-radius: px!important;
+  border-radius: 9px!important;
   box-sizing: border-box;
   margin: 8px;
   cursor: pointer; }
@@ -901,9 +919,10 @@ select:active {
     height: 100%;
     z-index: 1;
     background-size: cover;
+    border-radius: 9px!important;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 0;
+    opacity: 0.12;
     transition: all 0.3s ease-in; }
   .service:hover {
     color: #ffffff; }
@@ -930,7 +949,6 @@ select:active {
     text-align: center; }
     .service .post-meta .post-category {
       font-size: 4rem;
-      padding-top: 10px;
       color: #3FA39F;
       min-height: 100px;
       font-weight: bolder;
@@ -942,7 +960,7 @@ select:active {
       color: #3FA39F;
       text-transform: uppercase;
       letter-spacing: 0.5px;
-      font-weight: light; }
+      font-weight: bold; }
   .service .post-title {
     font-size: 17px;
     font-weight: 500;
@@ -981,19 +999,14 @@ select:active {
       text-decoration: underline; }
       .service .post-permalink:hover::after {
         transform: translateX(5px); }
-/*
-.service2 {
-  overflow: hidden;
-  float: right;
-  font-size: 18px;
-  margin:  40px;
-}
 
-.service2 a:hover {
-  text-decoration: underline;
-  color: #3FA39F;
+.title-underline {
+    width: 160px;
+    height: 6px;
+    background-color: #3FA39F;
+    margin: auto;
+
 }
-*/
 
 .wifi-nav {
   float: right;
@@ -1019,54 +1032,3 @@ select:active {
 }
 
 /*------x------- News Section ---------x--------*/
-
-/*
-
-.landing-section-projects .landing-project-card {
-  border: 0;
-  border-radius: 0;
-  margin-right: 23px;
-  overflow: hidden; }
-  .landing-section-projects .landing-project-card img {
-    height: 300px;
-    border-radius: 0;
-    -o-object-fit: cover;
-       object-fit: cover; }
-  .landing-section-projects .landing-project-card .card-img-overlay {
-    left: auto;
-    width: 0;
-    background-color: #000;
-    padding-top: 170px;
-    width: 236px;
-    transform: translateX(100%);
-    transition: transform 0.4s ease-in-out; }
-    @media (max-width: 991px) {
-      .landing-section-projects .landing-project-card .card-img-overlay {
-        width: 175px; } }
-    @media (max-width: 767px) {
-      .landing-section-projects .landing-project-card .card-img-overlay {
-        width: 50%; } }
-    @media (max-width: 400px) {
-      .landing-section-projects .landing-project-card .card-img-overlay {
-        width: 160px; } }
-    .landing-section-projects .landing-project-card .card-img-overlay .project-category {
-      font-size: 14px;
-      font-weight: 500;
-      line-height: 1.43;
-      color: #ffffff; }
-      @media (max-width: 767px) {
-        .landing-section-projects .landing-project-card .card-img-overlay .project-category {
-          font-size: 12px; } }
-    .landing-section-projects .landing-project-card .card-img-overlay .project-title {
-      font-size: 20px;
-      font-weight: 500;
-      line-height: 1;
-      color: #ffffff; }
-      @media (max-width: 767px) {
-        .landing-section-projects .landing-project-card .card-img-overlay .project-title {
-          font-size: 18px; } }
-  .landing-section-projects .landing-project-card.slick-active .card-img-overlay {
-    transform: translateX(0);
-    transition-delay: 0.5s; }
-
-    */
