@@ -516,6 +516,11 @@ div.masthead h1 {
   color: white;
 }
 
+.fa-star {
+  color: #3FA39F;
+  font-size: 15px;
+}
+
 
 .fa-facebook, .fa-facebook-f {
   color: #4267B2;
