@@ -476,6 +476,7 @@ div.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  height: 502px!important;
 }
 
 div.masthead h1 {
@@ -483,8 +484,8 @@ div.masthead h1 {
 }
 @media (min-width: 992px) {
   div.masthead {
-    height: 100vh;
-    min-height: 40rem;
+    height: 632px!important;
+    width: auto;
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
@@ -513,6 +514,18 @@ div.masthead h1 {
     margin-right: 20px;
 }
 
+h2.summary {
+  color: #282828;
+  font-weight: bolder;
+  font-size: 37px;
+}
+
+
+p.description {
+  color: #141414!important;
+  font-size: 13.5px!important;
+}
+
 .contacts li a{
   color: white;
 }
@@ -522,8 +535,7 @@ div.masthead h1 {
   font-size: 15px;
 }
 
-
-.fa-facebook, .fa-facebook-f {
+.fa-facebook, .fa-facebook-f, .fa-linkedin {
   color: #4267B2;
 }
 
@@ -548,9 +560,9 @@ div.masthead h1 {
 }
 
 .fa-facebook:hover, .fa-facebook-f:hover, .fa-twitter:hover, 
-.fa-whatsapp:hover, .fa-linkedin-in:hover, .fa-youtube:hover,
+.fa-whatsapp:hover, .fa-linkedin:hover, .fa-youtube:hover,
 .fa-instagram:hover {
-  color: #99A4AB;
+  color: #28313b;
 }
 
 .contacts li a:hover, .contacts2 li a:hover {
