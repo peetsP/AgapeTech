@@ -19,6 +19,29 @@ h1, h2, h3, h4, h5, h6 {
 
 /* -------------- Back to top button ------------------ */
 
+.animation__wobble {
+  -webkit-animation: wobble 1500ms;
+  animation: wobble 1500ms;
+}
+
+.preloader {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #3FA39F;
+  height: 100vh;
+  width: 100%;
+  transition: height 200ms linear;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+}
+
+div.preloader img.rounded {
+  border-radius: 15px!important;
+}
+
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -311,6 +334,8 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
   color: #3FA39F;
 }
+
+.navbar ul li.dropdown .dropdown-menu 
 
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
