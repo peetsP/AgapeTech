@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script type="text/javascript">
+var today = new Date();
+var UpgradeDay = new Date("October 12, 2021");
+var msPerDay = 24 * 60 * 60 * 1000 ;
+var timeLeft = (UpgradeDay.getTime() - today.getTime());
+var days = timeLeft / msPerDay;
+var daysLeft = Math.floor(days);
+document.write("There are only<BR> <H4>" + daysLeft + " days </H4> Until Your Computer Upgrade<P>");
+</script>
+</body>
+</html>

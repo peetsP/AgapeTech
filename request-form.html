@@ -22,8 +22,6 @@
   <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
 
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <!--link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"-->
-  <!--link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"-->
 
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -74,6 +72,7 @@
 
         <div class="text-center">
           <h2 class="text-uppercase bigheader">REQUEST THIS SERVICE</h2>
+              <!--span id="info"></span-->
           <p class="smallheader">Fill in the form below to complete the request. We will respond to you as soon as possible.<br>Contact us for more information.</p>
         </div>
 
@@ -123,39 +122,26 @@
                 </div>
               </div>
 
-              <div class="form-group">
-                <label for="name">Request for</label>
-                <input type="text" class="form-control" name="subject" id="subject" required placeholder="E.g. I'm requesting 7mbps wifi for my business">
-              </div>
-
               <div class="row mt-2">
                 <div class="form-group col-md-6">
                   <label for="service">Service</label><br>
 
-                  <select id="service" name="service">
-
-                      <option value="home">Home Wi-Fi</option>
-                      <option value="business">Business Wi-Fi</option>
-                      <option value="cctv">CCTV</option>
-                      <option value="biometrics">Biometrics</option>
+                  <select id="service2" name="service">
+                      <option value="service" id="info"></option>
+                      <option value="service">_________</option>
+                      <option value="service">Business Wi-Fi</option>
+                      <option value="service">Home-WiFi</option>
+                      <option value="service">CCTV</option>
+                      <option value="service">Biometrics</option>
                   </select>
 
                 </div>
 
                 <div class="form-group col-md-6">
-                  <label for="service">Wi-Fi Speed</label><br>
-
-                  <select id="service" name="service">
-
-                      <option value="two">2 mbps</option>
-                      <option value="three">3 mbps</option>
-                      <option value="four">4 mbps</option>
-                      <option value="five">5 mbps</option>
-                      <option value="six">6 mbps</option>
-                      <option value="seven">7 mbps</option>
-                  </select>
-
+                  <label for="name">Wi-Fi Speed</label>
+                  <input type="number" name="wifispeeed" class="form-control" id="name" required placeholder="Wi-Fi Speed in MBPS">
                 </div>
+
               </div>
 
               <div class="row mt-2">
@@ -238,20 +224,20 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-
   <!-- Vendor JS Files -->
-<!--
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  -->
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+
+    document.getElementById("info").innerHTML = localStorage.getItem("serviceinfo");
+    document.getElementById("data").innerHTML = localStorage.getItem("dataplan");
+ 
+  </script>
 
 </body>
 

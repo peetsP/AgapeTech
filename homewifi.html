@@ -22,10 +22,22 @@
   <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
 
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <!--link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"-->
-  <!--link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"-->
 
   <link href="assets/css/style.css" rel="stylesheet">
+
+    <script>
+
+    function valueSender()
+    {
+      var detail = document.getElementById("service").value;
+      localStorage.setItem("serviceinfo",detail);
+      var plan = document.getElementById("dataplan").value;
+      localStorage.setItem("dataplan",plan);
+      return false;
+    }
+
+    </script>
+
 
 </head>
 
@@ -83,12 +95,12 @@
                             <div class="card-body">
                                 
                                 <div class="post-meta">
-                                    <span class="post-category text-center">2<small>Mbps</small></span>
+                                    <span class="post-category text-center" value="2mbps">2<small>Mbps</small></span>
 
                                       <div class="text-center title-underline mb-4"></div>
 
                                 </div>
-                                <h5 class="post-title"><strong>Fast</strong> and Secure Wi-Fi with multiple streaming for your home.</h5>
+                                <h5 class="post-title text-center"><strong>Fast</strong> and Secure Wi-Fi with SD Movie & music streaming.</h5>
 
                                 <p>
                                     <img src="./assets/img/services/tick.png"/> Fast web browsing
@@ -99,13 +111,17 @@
                                     <br>
                                     <img src="https://img.icons8.com/bubbles/50/000000/cancel.png"/> Multiple device streaming
                                     <br>
-                                    <img src="https://img.icons8.com/bubbles/50/000000/cancel.png"/> Multiple device streaming
-                                    <br>
                                     <img src="https://img.icons8.com/bubbles/50/000000/cancel.png"/> CCTV devices Capability
                                 </p>
-                                <div class="request-btn">
-                                   <a href="request-form.html" class="post-permalink">Request <span>2mbps</span> </a>
-                                </div>
+
+                                <form action="request-form.html">
+                                    <div class="request-btn text-center">
+                                        <input type="text" class="donotdisplay" id="service" name="service" value="Home Wifi">
+
+                                       <button value="click" onclick="valueSender()" type="submit" class="btn btn-outline-dark post-permalink">Request <span>2mbps</span></button>
+                                    </div>
+                                </form>
+
                             </div>
                         </div>
                     </div>
@@ -114,12 +130,12 @@
                         <div class="service service-2 wow fadeInUp shadow">
                             <div class="card-body">
                                 <div class="post-meta">
-                                    <span class="post-category">5<small>mbps</small></span>
+                                    <span class="post-category" id="data" value="">5<small>mbps</small></span>
 
                                     <div class="text-center title-underline mb-4"></div>
 
                                 </div>
-                                <h5 class="post-title"><strong>Superfast</strong> and Secure Wi-Fi with multiple streaming for your home.</h5>
+                                <h5 class="post-title text-center"><strong>Superfast</strong> and Secure Wi-Fi with multiple streaming.</h5>
 
                                 <p>
                                     <img src="./assets/img/services/tick.png"/> Fast web browsing
@@ -130,15 +146,16 @@
                                     <br>
                                     <img src="./assets/img/services/tick.png"/> Multiple device streaming
                                     <br>
-                                    <img src="./assets/img/services/tick.png"/> Multiple device streaming
-                                    <br>
                                     <img src="./assets/img/services/tick.png"/> CCTV devices Capability
                                 </p>
 
-                                <div class="request-btn">
-                                   <a href="request-form.html" class="post-permalink">Request <span>5mbps</span> </a>
-                                </div>
+                                <form action="request-form.html">
+                                    <div class="request-btn text-center">
+                                        <input type="text" class="donotdisplay" id="service" name="service" value="Home Wifi">
 
+                                       <button value="click" onclick="valueSender()" type="submit" class="btn btn-outline-dark post-permalink">Request <span>5mbps</span></button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -147,12 +164,12 @@
                         <div class="service service-3 wow fadeInUp shadow">
                             <div class="card-body">
                                 <div class="post-meta">
-                                    <span class="post-category">7<small>mbps</small></span>
+                                    <span class="post-category" id="data">7<small>mbps</small></span>
 
                                     <div class="text-center title-underline mb-4"></div>
 
                                 </div>
-                                <h5 class="post-title"><strong>Hyperfast</strong> and Secure Wi-Fi with multiple streaming for your home.</h5>
+                                <h5 class="post-title text-center"><strong>Hyperfast</strong> and Secure Wi-Fi with multiple streaming.</h5>
 
                                 <p>
                                     <img src="./assets/img/services/tick.png"/> Fast web browsing
@@ -163,14 +180,16 @@
                                     <br>
                                     <img src="./assets/img/services/tick.png"/> Multiple device streaming
                                     <br>
-                                    <img src="./assets/img/services/tick.png"/> Multiple device streaming
-                                    <br>
                                     <img src="./assets/img/services/tick.png"/> CCTV devices Capability
                                 </p>
 
-                                <div class="">
-                                   <a href="request-form.html" class="post-permalink">Request <span>7mbps</span> </a>
-                                </div>
+                                <form action="request-form.html">
+                                    <div class="request-btn text-center">
+                                        <input type="text" class="donotdisplay" id="service" name="service" value="Home Wifi">
+
+                                       <button value="click" onclick="valueSender()" type="submit" class="btn btn-outline-dark post-permalink">Request <span>7mbps</span></button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -237,15 +256,8 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-
   <!-- Vendor JS Files -->
-<!--
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  -->
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

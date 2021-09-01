@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -22,10 +21,21 @@
   <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
 
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <!--link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"-->
-  <!--link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"-->
 
   <link href="assets/css/style.css" rel="stylesheet">
+
+    <script>
+
+    function valueSender()
+    {
+      var detail = document.getElementById("service").value;
+      localStorage.setItem("serviceinfo",detail);
+      var plan = document.getElementById("dataplan").value;
+      localStorage.setItem("dataplan",plan);
+      return false;
+    }
+
+    </script>
 
 </head>
 
@@ -105,9 +115,15 @@
                                     <br>
                                     <img src="./assets/img/services/tick.png"/> CCTV devices Capability
                                 </p>
-                                <div class="request-btn">
-                                   <a href="request-form.html" class="post-permalink">Request <span>3mbps</span> </a>
-                                </div>
+
+                                <form action="request-form.html">
+                                    <div class="request-btn text-center">
+                                        <input type="text" class="donotdisplay" id="service" name="service" value="Business Wifi">
+
+                                       <button value="click" onclick="valueSender()" type="submit" class="btn btn-outline-dark post-permalink">Request <span>3mbps</span></button>
+                                    </div>
+                                </form>
+
                             </div>
                         </div>
                     </div>
@@ -136,9 +152,13 @@
                                     <img src="./assets/img/services/tick.png"/> CCTV devices Capability
                                 </p>
 
-                                <div class="request-btn">
-                                   <a href="request-form.html" class="post-permalink">Request <span>4mbps</span> </a>
-                                </div>
+                                <form action="request-form.html">
+                                    <div class="request-btn text-center">
+                                        <input type="text" class="donotdisplay" id="service" name="service" value="Business Wifi">
+
+                                       <button value="click" onclick="valueSender()" type="submit" class="btn btn-outline-dark post-permalink">Request <span>4mbps</span></button>
+                                    </div>
+                                </form>
 
                             </div>
                         </div>
@@ -169,9 +189,14 @@
                                     <img src="./assets/img/services/tick.png"/> CCTV devices Capability
                                 </p>
 
-                                <div class="">
-                                   <a href="request-form.html" class="post-permalink">Request <span>5mbps</span> </a>
-                                </div>
+                                <form action="request-form.html">
+                                    <div class="request-btn text-center">
+                                        <input type="text" class="donotdisplay" id="service" name="service" value="Business Wifi">
+
+                                       <button value="click" onclick="valueSender()" type="submit" class="btn btn-outline-dark post-permalink">Request <span>5mbps</span></button>
+                                    </div>
+                                </form>
+
                             </div>
                         </div>
                     </div>
@@ -201,9 +226,14 @@
                                     <img src="./assets/img/services/tick.png"/> CCTV devices Capability
                                 </p>
 
-                                <div class="">
-                                   <a href="request-form.html" class="post-permalink">Request <span>7mbps</span> </a>
-                                </div>
+                                <form action="request-form.html">
+                                    <div class="request-btn text-center">
+                                        <input type="text" class="donotdisplay" id="service" name="service" value="Business Wifi">
+
+                                       <button value="click" onclick="valueSender()" type="submit" class="btn btn-outline-dark post-permalink">Request <span>7mbps</span></button>
+                                    </div>
+                                </form>
+
                             </div>
                         </div>
                     </div>
@@ -234,9 +264,14 @@
                                     <img src="./assets/img/services/tick.png"/> CCTV devices Capability
                                 </p>
 
-                                <div class="">
-                                   <a href="request-form.html" class="post-permalink">Request <span>10mbps</span> </a>
-                                </div>
+                                <form action="request-form.html">
+                                    <div class="request-btn text-center">
+                                        <input type="text" class="donotdisplay" id="service" name="service" value="Business Wifi">
+
+                                       <button value="click" onclick="valueSender()" type="submit" class="btn btn-outline-dark post-permalink">Request <span>10mbps</span></button>
+                                    </div>
+                                </form>
+
                             </div>
                         </div>
                     </div>

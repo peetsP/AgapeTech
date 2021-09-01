@@ -732,6 +732,10 @@ section.contact {
   animation: animate-loading 1s linear infinite;
 }
 
+.donotdisplay {
+  display: none;
+}
+
 .contact .php-email-form input, .contact .php-email-form textarea, select {
   border-radius: 0;
   box-shadow: none;
@@ -1016,7 +1020,6 @@ select:active {
   .service .post-permalink, .service2 .post-permalink {
     font-size: 13px;
     font-weight: 500;
-    line-height: 2.08;
     color: inherit; }
 
   .service .post-permalink span {
