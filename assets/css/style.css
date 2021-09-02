@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  background-color: #3FA39F;
+  background-color: #2469A6;
   height: 100vh;
   width: 100%;
   transition: height 200ms linear;
@@ -49,7 +49,7 @@ div.preloader img.rounded {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #3FA39F;
+  background: #2469A6;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -151,7 +151,7 @@ div.preloader img.rounded {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #3FA39F;
+  color: #2469A6;
 }
 
 .navbar .getstarted {
@@ -166,9 +166,9 @@ div.preloader img.rounded {
 }
 
 .navbar .getstarted:hover {
-  background: #3FA39F;
+  background: #2469A6;
   color: #fff;
-  border-color: #3FA39F;
+  border-color: #2469A6;
 }
 
 .navbar .dropdown ul {
@@ -203,7 +203,7 @@ div.preloader img.rounded {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #3FA39F;
+  color: #2469A6;
 }
 
 .navbar .dropdown:hover > ul {
@@ -298,7 +298,7 @@ div.preloader img.rounded {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #3FA39F;
+  color: #2469A6;
 }
 
 .navbar-mobile .getstarted {
@@ -331,7 +331,7 @@ div.preloader img.rounded {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #3FA39F;
+  color: #2469A6;
 }
 
 .navbar ul li.dropdown .dropdown-menu 
@@ -362,9 +362,11 @@ div.preloader img.rounded {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 45px;
-  margin-top: 110px;
+  padding-top: 110px;
   font-weight: bold;
 }
+
+
 
 p.smallheader {
   font-size: 13.4px;
@@ -373,13 +375,13 @@ p.smallheader {
 
 p.smallheader a {
   font-size: 14px;
-  color: #3FA39F;
+  color: #2469A6;
   font-weight: bold;
 }
 
 p.smallheader a:hover {
   font-size: 14px;
-  color: #3FA39F;
+  color: #2469A6;
   text-decoration: underline;
 }
 
@@ -399,7 +401,7 @@ p.smallheader a:hover {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #3FA39F;
+  background: #2469A6;
   box-shadow: 0 8px 28px rgba(22, 223, 126, 0.45);
 }
 
@@ -427,7 +429,7 @@ p.smallheader a:hover {
 }
 
 #hero .btn-watch-video:hover i {
-  color: #3FA39F;
+  color: #2469A6;
 }
 
 #hero .animated {
@@ -524,12 +526,6 @@ div.masthead h1 {
   font-size: 2.25rem;
 }
 
-
-main {
-  background-color: #3a4454;
-}
-
-
 @media (min-width: 992px) {
   div.masthead {
     height: 632px!important;
@@ -568,14 +564,15 @@ p.name {
 }
 
 h2.summary {
-  color: #090909;
+ /* color: #d00000;*/
+ color: #EB002B;
   font-weight: bolder;
   font-size: 37px;
 }
 
 
 p.description {
-  color: #090909;
+  color: black;
   font-size: 13.5px!important;
 }
 
@@ -584,7 +581,7 @@ p.description {
 }
 
 .fa-star {
-  color: #3FA39F;
+  color: #2469A6;
   font-size: 15px;
 }
 
@@ -624,25 +621,17 @@ p.description {
 
 
 /* -------------- Service --------------*/
-
-.ourservices {
-}
-
-.ourservices p {
-  font-size: 13px;
-}
-
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 
 section.contact {
-  margin-bottom: 70px;
+  padding-bottom: 70px;
 }
 
 .contact .info {
-  border-top: 3px solid #3FA39F;
-  border-bottom: 3px solid #3FA39F;
+  border-top: 3px solid #2469A6;
+  border-bottom: 3px solid #2469A6;
   padding: 30px;
   width: 100%;
   background-color: #f9f9fa;
@@ -650,7 +639,7 @@ section.contact {
 
 .contact .info i {
   font-size: 20px;
-  color: #3FA39F;
+  color: #2469A6;
   float: left;
   width: 44px;
   height: 44px;
@@ -697,19 +686,19 @@ section.contact {
 }
 
 .contact .info .social-links a:hover {
-  background: #3FA39F;
+  background: #2469A6;
   color: #fff;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #3FA39F;
+  background: #2469A6;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #3FA39F;
-  border-bottom: 3px solid #3FA39F;
+  border-top: 3px solid #2469A6;
+  border-bottom: 3px solid #2469A6;
   padding: 30px;
   background-color: #f9f9fa;
 }
@@ -772,7 +761,7 @@ section.contact {
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus, select:focus {
-  border-color: #3FA39F;
+  border-color: #2469A6;
 }
 
 .contact .php-email-form input, select {
@@ -784,7 +773,7 @@ select {
 }
 
 select:active {
-  border-color: #3FA39F;
+  border-color: #2469A6;
 }
 
 .contact .php-email-form textarea, select {
@@ -792,7 +781,7 @@ select:active {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #3FA39F;
+  background: #2469A6;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -801,7 +790,7 @@ select:active {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #3FA39F;
+  background: #2469A6;
 }
 
 
@@ -814,7 +803,6 @@ select:active {
 --------------------------------------------------------------*/
 #footer {
   background-color: #f3f4f6;
-  color: #5f687b;
   font-size: 14px;
   position: relative;
 }
@@ -873,7 +861,7 @@ select:active {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #3FA39F;
+  background: #2469A6;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -885,7 +873,6 @@ select:active {
 }
 
 #footer .footer-top .social-links {
-  margin-top: 30px;
 }
 
 #footer .footer-top .social-links a {
@@ -904,7 +891,7 @@ select:active {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #3FA39F;
+  background: #2469A6;
   color: #fff;
   text-decoration: none;
 }
@@ -1018,7 +1005,7 @@ select:active {
     text-align: center; }
     .service .post-meta .post-category {
       font-size: 4rem;
-      color: #3FA39F;
+      color: #2469A6;
       min-height: 100px;
       font-weight: bolder;
       letter-spacing: 2px;
@@ -1026,7 +1013,7 @@ select:active {
       padding-right: 30px; }
     .service .post-meta .post-category small{
       font-size: 16px;
-      color: #3FA39F;
+      color: #2469A6;
       text-transform: uppercase;
       letter-spacing: 0.5px;
       font-weight: bold; }
@@ -1041,7 +1028,7 @@ select:active {
     color: inherit; }
 
   .service p img {
-    height: 35px;
+    height: 30px;
     width: auto;
   }
 
@@ -1051,7 +1038,7 @@ select:active {
     color: inherit; }
 
   .service .post-permalink span {
-    color: #3FA39F;
+    color: #2469A6;
     font-weight: bold; }
 
     .service .post-permalink::after, .service2 .post-permalink::after {
@@ -1071,7 +1058,8 @@ select:active {
 .title-underline {
     width: 160px;
     height: 6px;
-    background-color: #3FA39F;
+    background-color: #ffffff;
+background-image: linear-gradient(315deg, #90e0ef 0%, #2469A6 74%);
     margin: auto;
 
 }
@@ -1084,7 +1072,7 @@ select:active {
 }
 
 .wifi-nav a {
-  background: #3FA39F;
+  background: #2469A6;
   color: white;
   padding: 10px;
   border-radius: 3px;
@@ -1095,7 +1083,7 @@ select:active {
   color: white;
   padding: 10px;
   border:  red;
-  border-radius: 3px solid #3FA39F;
+  border-radius: 3px solid #2469A6;
 
 }
 
@@ -1130,7 +1118,48 @@ main {
   color: #000814;
 }
 
+.subheading {
+  font-size: 14px;
+}
+
+#footer, .subheading {
+  color: #000814;
+}
+
+.textp {
+  font-size: 15px;
+}
+
+.btn-outline-dark2 {
+  background-color: #2469A6;
+  color: white;
+  border: none;
+  font-size: 15px;
+}
+
+.btn-outline-dark2:hover {
+  background-color: #219ebc!important;
+}
+
+
+.btn-outline-business {
+  background-color: #cca000;
+  color: white;
+  border: none;
+  font-size: 15px;
+}
+
+.btn-outline-business:hover {
+  background-color: #219ebc;
+}
+
+
+button:hover span {
+  color: #00b4d8!important;
+}
+button:hover span {
+  color: #00b4d8!important;
+}
+
 /* ----x------ COlor Sections ----x----*/
-
-
 
