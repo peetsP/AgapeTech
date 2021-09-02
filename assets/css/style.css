@@ -75,7 +75,6 @@ div.preloader img.rounded {
 /*---------------- Header ----------------*/
 
 #header {
-  background: #fff;
   transition: all 0.5s;
   z-index: 997;
   padding: 14px 0;
@@ -516,7 +515,7 @@ div.masthead:after {
     height: 100%;
     content: '';
     position: absolute;
-    opacity: 0.6;
+    opacity: 0.3;
     top: 0;
     z-index: 3;
 }
@@ -524,6 +523,13 @@ div.masthead:after {
 div.masthead h1 {
   font-size: 2.25rem;
 }
+
+
+main {
+  background-color: #3a4454;
+}
+
+
 @media (min-width: 992px) {
   div.masthead {
     height: 632px!important;
@@ -1094,3 +1100,37 @@ select:active {
 }
 
 /*------x------- News Section ---------x--------*/
+
+
+/* ----------- COlor Sections -------*/
+
+
+header {
+  background-color: #e7ecef;
+}
+/*
+.ourservices {
+  background-color: #274c77;
+}
+
+.contact {
+  background-color: #6096ba;
+}
+
+.footer {
+  background-color: #a3cef1;
+}
+*/
+
+main {
+  background-color: #e7ecef;
+}
+
+.bigheader {
+  color: #000814;
+}
+
+/* ----x------ COlor Sections ----x----*/
+
+
+
