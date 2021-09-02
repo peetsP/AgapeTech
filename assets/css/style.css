@@ -496,7 +496,7 @@ p.smallheader a:hover {
 div.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: url("../img/background/bg.jpg");
+  background: url("../img/background/new/bg1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -538,11 +538,28 @@ div.masthead h1 {
     font-size: 11px;
     margin-right: 20px;
 }
-
+/*
 h2.summary {
-  color: #282828;
+  color: #f8f7ff;
   font-weight: bolder;
   font-size: 37px;
+}
+*/
+h2.summary {
+color: #202c2d;
+  font-weight: bolder;
+  font-size: 37px!important;
+  text-shadow:
+    0 5px #808d93,
+    -1px 0 #cdd2d5,
+    -1px 2px #808d93,
+    -2px 1px #cdd2d5,
+    -2px 3px #808d93,
+    -3px 2px #cdd2d5,
+    -3px 4px #808d93,
+    -4px 3px #cdd2d5,
+    -4px 5px #808d93,
+    -5px 4px #cdd2d5;
 }
 
 
