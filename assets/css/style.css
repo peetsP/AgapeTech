@@ -63,7 +63,7 @@ div.preloader img.rounded {
 }
 
 .back-to-top:hover {
-  background: #28313b;
+  background: #219ebc;
   color: #fff;
 }
 
@@ -362,11 +362,17 @@ div.preloader img.rounded {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 45px;
-  padding-top: 110px;
+  padding-top: 80px;
   font-weight: bold;
 }
 
-
+.bigheader2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 45px;
+  padding-top: 120px;
+  font-weight: bold;
+}
 
 p.smallheader {
   font-size: 13.4px;
@@ -612,7 +618,7 @@ p.description {
 .fa-facebook:hover, .fa-facebook-f:hover, .fa-twitter:hover, 
 .fa-whatsapp:hover, .fa-linkedin:hover, .fa-youtube:hover,
 .fa-instagram:hover {
-  color: #28313b;
+  color: #219ebc;
 }
 
 .contacts li a:hover, .contacts2 li a:hover {
@@ -869,7 +875,7 @@ select:active {
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #485461;
+  background: #219ebc;
 }
 
 #footer .footer-top .social-links {
@@ -1114,7 +1120,7 @@ main {
   background-color: #e7ecef;
 }
 
-.bigheader {
+.bigheader, .bigheader2 {
   color: #000814;
 }
 
@@ -1141,7 +1147,6 @@ main {
   background-color: #219ebc!important;
 }
 
-
 .btn-outline-business {
   background-color: #cca000;
   color: white;
@@ -1153,12 +1158,16 @@ main {
   background-color: #219ebc;
 }
 
+button:hover span {
+  color: #00b4d8!important;
+}
 
 button:hover span {
   color: #00b4d8!important;
 }
-button:hover span {
-  color: #00b4d8!important;
+
+.text-center button:hover {
+  background-color: #219ebc!important;
 }
 
 /* ----x------ COlor Sections ----x----*/
